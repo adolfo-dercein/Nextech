@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Api", "Nextech.Api.csproj", "{56D05668-B462-4C1F-B5DA-1CF902A6E6C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Api", "Nextech.Api\Nextech.Api.csproj", "{56D05668-B462-4C1F-B5DA-1CF902A6E6C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Core", "..\Nextech.Model\Nextech.Core.csproj", "{6EA653FB-1D0E-4053-A215-C961D6A68138}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Core", "Nextech.Model\Nextech.Core.csproj", "{6EA653FB-1D0E-4053-A215-C961D6A68138}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Client", "..\Nextech.Client\Nextech.Client.csproj", "{37B67B79-7686-46EC-BDA3-75A881DFE0E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Client", "Nextech.Client\Nextech.Client.csproj", "{37B67B79-7686-46EC-BDA3-75A881DFE0E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Business", "..\Nextech.Business\Nextech.Business.csproj", "{44308A1A-1084-434F-8E3D-8E49D1B0B648}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Business", "Nextech.Business\Nextech.Business.csproj", "{44308A1A-1084-434F-8E3D-8E49D1B0B648}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AB049BB4-21AC-4EEE-9189-F44FFB7D74D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Client.UnitTests", "..\Nextech.Client.UnitTests\Nextech.Client.UnitTests.csproj", "{7F0AE8F0-4F9B-491C-A0BE-F29912134E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Client.UnitTests", "Nextech.Client.UnitTests\Nextech.Client.UnitTests.csproj", "{7F0AE8F0-4F9B-491C-A0BE-F29912134E23}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Client.IntegrationTests", "..\Nextech.Client.IntegrationTests\Nextech.Client.IntegrationTests.csproj", "{16B442FF-A281-4448-92BC-3B82B038D565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Client.IntegrationTests", "Nextech.Client.IntegrationTests\Nextech.Client.IntegrationTests.csproj", "{16B442FF-A281-4448-92BC-3B82B038D565}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Business.IntegrationTests", "..\Nextech.Business.IntegrationTests\Nextech.Business.IntegrationTests.csproj", "{CED73536-8BF6-406C-8853-11E172F5FB09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nextech.Business.IntegrationTests", "Nextech.Business.IntegrationTests\Nextech.Business.IntegrationTests.csproj", "{CED73536-8BF6-406C-8853-11E172F5FB09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nextech.Business.UnitTests", "..\Nextech.Business.UnitTests\Nextech.Business.UnitTests.csproj", "{F2EA7212-A457-4D6E-8351-3E1E775AB200}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nextech.Business.UnitTests", "Nextech.Business.UnitTests\Nextech.Business.UnitTests.csproj", "{F2EA7212-A457-4D6E-8351-3E1E775AB200}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
