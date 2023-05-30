@@ -1,0 +1,17 @@
+
+<a [href]="item.url" target="_blank" class="list-group-item list-group-item-action" [ngClass]="{ disabled : !item.url, 'item-disabled' : !item.url }"> 
+  <div class="card text-center">
+    <div class="card-header">
+      <div>{{ type }}</div>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ item.title }}</h5>
+      <p class="card-text" [innerHTML]="item.text"></p>
+      
+      <h6>by: {{ item.by }}</h6>
+    </div>
+    <div class="card-footer text-muted">
+        {{ item.date | date:"MMM dd yyyy HH:mm" }}
+    </div>
+  </div>
+</a>

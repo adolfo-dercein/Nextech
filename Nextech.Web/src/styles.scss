@@ -1,0 +1,111 @@
+$color1: #0D0D0D;
+$color2: #262626;
+$color3: #404040;
+$color4: #595959;
+$color5: #BFBFBF;
+$light: rgba(0, 0, 0, 0.03);
+$black: #262626;
+$border: #dee2e6;
+
+
+
+.n-topnavbar
+{
+    background-color: $color2 !important;
+}
+.n-topnavbar .nav-item a 
+{
+    color: white !important;
+}
+
+.main-container
+{
+    margin-bottom: 100px;
+}
+
+// --------------------------------------------------------------------
+// Main scroll 
+// --------------------------------------------------------------------
+::-webkit-scrollbar 
+{
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track 
+{
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #555;
+}
+
+// --------------------------------------------------------------------
+// Navbar
+// --------------------------------------------------------------------
+.navbar
+{
+    background-color: $color2;
+}
+
+.navbar a 
+{
+    color: white;
+}
+
+.n-header
+{
+    margin-bottom: 30px;
+}
+
+// --------------------------------------------------------------------
+// Footer
+// --------------------------------------------------------------------
+
+.n-footer
+{
+    background-color: $color2;
+}
+
+.n-footer a
+{
+    text-decoration: none;
+}
+
+// --------------------------------------------------------------------
+// News
+// -------------------------------------------------------------------- 
+.news
+{
+    // margin-bottom: 100px;
+}
+
+.pagination
+{
+    margin-bottom: 24px;
+}
+
+
+
+// --------------------------------------------------------------------
+// Pagination
+// --------------------------------------------------------------------
+.page-link
+{
+    color: $color2;
+}
+.active>.page-link, .page-link.active 
+{
+    color: $black;
+    background-color: $light;
+    border-color: $border;
+}

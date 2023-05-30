@@ -1,0 +1,43 @@
+<nav class="py-1 bg-light border-bottom n-topnavbar">
+  <div class="container d-flex flex-wrap">
+    <ul class="nav me-auto">
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Home</a></li>
+    </ul>
+    <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+      <div class="row">
+        <div class="col-auto">
+          <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="searchTerm" />
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-light" (click)="onSearch()">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</nav>
+<header class="py-3 border-bottom">
+  <div class="container justify-content-center">
+    <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none justify-content-center">
+      <h2>Hacker News</h2>
+    </a>
+  </div>
+</header>
+<nav class="py-2 bg-light border-bottom ">
+  <div class="justify-content-center">
+    <ul class="nav justify-content-center">
+      <li class="nav-item"><a routerLink="/news" class="nav-link link-dark px-2">Latest News</a></li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<app-toast-container></app-toast-container>
+
+<nav class="navbar fixed-bottom n-footer">
+  <div class="container">
+    <a href="https://www.linkedin.com/in/adolfomerino/" target="_blank">By Adolfo Merino</a> <p style="color: white">powered by <a href="https://github.com/HackerNews/API" target="_blank"> Hacker News API </a></p>
+  </div>
+</nav>
+

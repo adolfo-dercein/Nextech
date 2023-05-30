@@ -1,0 +1,29 @@
+
+<div class="container main-container mt-4">
+  
+  <div class="row" *ngIf="loading">
+    <app-loading></app-loading>
+  </div>
+
+  <div *ngIf="!loading">
+    <div class="row">
+      <div class="col-12">
+          <ngb-pagination ngClass="justify-content-center" [collectionSize]="total" (pageChange)="onChangePage($event)" [(page)]="pageNumber" [maxSize]="5" [boundaryLinks]="true" [pageSize]="pageSize" class="d-flex"></ngb-pagination>
+      </div>
+    </div>
+
+    <div class="row">    
+      <div class="col-12 mb-4" *ngFor="let item of news">
+          <app-news-card [item]="item"></app-news-card>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+          <ngb-pagination ngClass="justify-content-center" [collectionSize]="total" (pageChange)="onChangePage($event)" [(page)]="pageNumber" [maxSize]="10" [boundaryLinks]="true" [pageSize]="pageSize" class="d-flex"></ngb-pagination>
+      </div>
+    </div> 
+  </div>
+
+</div>
+
